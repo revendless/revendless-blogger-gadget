@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-	<ModulePrefs height="0" title="Revendless Blogger Gadget" />
+	<ModulePrefs width="1" height="1" title="Revendless Blogger Gadget" author="Revendless" author_email="support@revendless.com" />
 	<UserPref name="apikey" display_name="API Key" required="true" />
 	<Content type="html"><![CDATA[
 		<script type="text/javascript">
