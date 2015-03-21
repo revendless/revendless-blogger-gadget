@@ -2,19 +2,17 @@
 <Module>
 	<ModulePrefs height="0" title="Revendless Blogger Gadget" />
 	<UserPref name="apikey" display_name="API Key" />
-	<Content type="html">
-		<![CDATA[
+	<Content type="html"><![CDATA[
 		<script type="text/javascript">
 			gadgets.util.registerOnLoadHandler(function(){
 				var prefs = new gadgets.Prefs();
 				var apikey = prefs.getString('apikey');
 				if (apikey.match(/[a-zA-Z0-9]{40}/) != null) {
           (function(w,d,s,u,n,t,p){w['RevendlessObject']=n;w[n]=w[n]||function(){(w[n].e=w[n].e||[]).push(arguments)};t=d.createElement(s);p=d.getElementsByTagName(s)[0];p.parentNode.insertBefore(t,p);t.async=1;t.src=u;})
-          (window,document,'script','/build/sdk.js','rev');
+          (window,document,'script','//sdk.revendless.com/build/sdk.js','rev');
           rev('init',apikey);
 				}
 			});
 		</script>
-		]]>
-	</Content>
+	]]></Content>
 </Module>
