@@ -1,2 +1,3 @@
-# revendless-blogger-gadget
-Revendless JS SDK Gadget for Google Bloggers
+# Revendless Blogger Gadget
+
+Integrates the Revendless JavaScript SDK in Blogs powered by Google Bloggers.
