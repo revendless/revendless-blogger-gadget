@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
 	<ModulePrefs height="0" title="Revendless Blogger Gadget" />
-	<UserPref name="apikey" display_name="API Key" />
+	<UserPref name="apikey" display_name="API Key" required="true" />
 	<Content type="html"><![CDATA[
 		<script type="text/javascript">
 			gadgets.util.registerOnLoadHandler(function(){
