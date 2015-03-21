@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-	<ModulePrefs height="0" title="Revendless" author="Revendless" author_email="support@revendless.com" />
+	<ModulePrefs title="Revendless Product Gadget" height="250" author="Revendless" author_email="support@revendless.com" />
 	<UserPref name="apikey" display_name="API Key" required="true" />
 	<Content type="html">
 	<![CDATA[
@@ -15,6 +15,7 @@
 				}
 			});
 		</script>
+		<div class="rev-widget" data-type="product" data-num="15"></div>
 	]]>
 	</Content>
 </Module>
