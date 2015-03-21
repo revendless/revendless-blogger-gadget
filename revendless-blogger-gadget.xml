@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Module>
-	<ModulePrefs height="0" title="Revendless Bloggler Gadget" />
+	<ModulePrefs height="0" title="Revendless Blogger Gadget" />
 	<UserPref name="apiKey" display_name="API Key" />
 	<Content type="html"><![CDATA[
 		<script>
